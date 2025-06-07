@@ -51,21 +51,7 @@ header {
   background-color: #0056b3;
 }
 
-.image-header {
-  flex: 1;
-  min-width: 250px;
-  margin-left: 40px;
-  display: flex;
-  justify-content: center;
-}
 
-.image-header img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
 
 /* Responsive */
 @media (max-width: 768px) {
