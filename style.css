@@ -217,12 +217,16 @@ footer {
 
 
 
+/* Navigation */
 nav {
-  background-color: #222;
-  padding: 10px 20px;
+  background-color: #1a1a1a;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-nav .container {
+.container {
   max-width: 1100px;
   margin: auto;
   display: flex;
@@ -231,23 +235,23 @@ nav .container {
 }
 
 .logo {
-  color: #00bcd4;
-  font-size: 24px;
+  color: white;
+  font-size: 1.6em;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-}
-
-nav ul li {
-  margin-left: 20px;
+  gap: 25px;
 }
 
 nav ul li a {
-  color: #fff;
+  color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
