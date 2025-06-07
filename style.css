@@ -15,9 +15,7 @@ body {
 /* Header */
 header {
   padding: 60px 20px;
-  background-image: url('image.png');
-  background-size: cover;
-  background-position: center;
+  
 }
 
 .container {
