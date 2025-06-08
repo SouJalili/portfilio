@@ -20,7 +20,7 @@ header {
 
 .text-header {
   flex: 2;
-  min-width: 400px;
+  min-width: 450px;
 }
 
 .text-header h1 {
