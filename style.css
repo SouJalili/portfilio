@@ -1,6 +1,6 @@
 /* === Header === */
 header {
-  background-image: url('image.png');
+  background-image: url('back.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,4 +178,21 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+
+
+.image-header {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.image-header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* optionnel pour un effet plus doux */
+}
+.image-header img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
