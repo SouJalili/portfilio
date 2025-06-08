@@ -189,6 +189,6 @@ footer {
 }
 
 .image-header {
-  flex: 1 1 20%; /* 👈 Un peu moins que le texte pour éviter overflow */
+  flex: 1 1 5%; /* 👈 Un peu moins que le texte pour éviter overflow */
   text-align: center;
 }
