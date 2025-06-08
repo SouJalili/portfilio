@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif; /* ✅ Police globale du site */
+  font-family: Arial, sans-serif; 
   background-color: #f5f5f5;
   color: #333;
   line-height: 1.6;
@@ -141,6 +141,8 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
+  font-size: 20px;
+
 }
 
 nav ul li a:hover {
