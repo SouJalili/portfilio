@@ -19,7 +19,7 @@ header {
 }
 
 .text-header {
-  flex: 1 1 50%; /* 👈 Autorise la réduction mais garde 50% min */
+  flex: 2; /* 👈 Autorise la réduction mais garde 50% min */
   min-width: 300px;
 }
 
