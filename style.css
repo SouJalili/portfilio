@@ -14,12 +14,13 @@ header {
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* 👈 Changé ici */
+  gap: 40px; /* Optionnel mais utile pour espacer proprement */
 }
 
 .text-header {
-  flex: 1;
-  min-width: 280px;
+  flex: 1 1 50%; /* 👈 Autorise la réduction mais garde 50% min */
+  min-width: 300px;
 }
 
 .text-header h1 {
@@ -187,12 +188,7 @@ footer {
   text-align: center;
 }
 
-.image-header img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px; /* optionnel pour un effet plus doux */
-}
-.image-header img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+.image-header {
+  flex: 1 1 40%; /* 👈 Un peu moins que le texte pour éviter overflow */
+  text-align: center;
 }
