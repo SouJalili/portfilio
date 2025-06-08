@@ -15,7 +15,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   padding: 80px 20px;
-  color: white;
+  color: rgb(9, 5, 54);
 }
 
 .header-content {
@@ -106,7 +106,7 @@ header {
 
 /* === Navigation === */
 nav {
-  background-color: #222;
+  background-color: #0c0b4e;
   padding: 10px 20px;
 }
 
