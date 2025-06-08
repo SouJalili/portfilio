@@ -14,12 +14,12 @@ header {
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  flex-wrap: nowrap; /* 👈 Changé ici */
-  gap: 40px; /* Optionnel mais utile pour espacer proprement */
+  flex-wrap: nowrap;
+  gap: 40px;
 }
 
 .text-header {
-  flex: 2; 
+  flex: 2;
   min-width: 300px;
 }
 
@@ -34,10 +34,10 @@ header {
 }
 
 .text-header p {
-  flex: 2;
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin: 15px 0;
-  color: white;
+  color: #f9f9f9;
+  line-height: 1.4;
 }
 
 .btn {
@@ -54,7 +54,16 @@ header {
   background-color: #0056b3;
 }
 
+.image-header {
+  flex: 1;
+  text-align: center;
+}
 
+.image-header img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -63,14 +72,20 @@ header {
     text-align: center;
   }
 
+  .text-header p {
+    font-size: 1.4em;
+  }
+
   .image-header {
-    margin-left: 0;
     margin-top: 30px;
+  }
+
+  .image-header img {
+    width: 150px;
   }
 }
 
-
-
+/* === Reset & Base === */
 * {
   margin: 0;
   padding: 0;
@@ -84,6 +99,7 @@ body {
   line-height: 1.6;
 }
 
+/* === Navigation === */
 nav {
   background-color: #222;
   padding: 10px 20px;
@@ -121,8 +137,7 @@ nav ul li a:hover {
   color: #00bcd4;
 }
 
-
-
+/* === Boutons généraux === */
 .btn {
   display: inline-block;
   margin-top: 20px;
@@ -138,12 +153,14 @@ nav ul li a:hover {
   background-color: #0097a7;
 }
 
+/* === Sections === */
 section {
   padding: 40px 20px;
   max-width: 900px;
   margin: auto;
 }
 
+/* === Compétences === */
 .skills ul {
   display: flex;
   flex-wrap: wrap;
@@ -160,28 +177,26 @@ section {
   font-weight: bold;
 }
 
+/* === Projets === */
 .projects .project {
   background: #fff;
   margin: 15px 0;
   padding: 20px;
   border-left: 5px solid #00bcd4;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* === Contact === */
 .contact a {
   color: #00bcd4;
   text-decoration: none;
 }
 
+/* === Footer === */
 footer {
   background-color: #222;
   color: #ccc;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-}
-
-.image-header {
-  flex: 1;
-  text-align: center;
 }
