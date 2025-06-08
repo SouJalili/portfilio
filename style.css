@@ -60,9 +60,9 @@ header {
 }
 
 .image-header img {
-  width: 200px;
+  width: 100px;
   height: auto;
-  border-radius: 10px;
+
 }
 
 /* Responsive */
