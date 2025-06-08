@@ -55,7 +55,7 @@ header {
 }
 
 .image-header {
-  flex: 1;
+  flex: 0;
   text-align: center;
 }
 
