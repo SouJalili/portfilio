@@ -181,13 +181,6 @@ footer {
   margin-top: 40px;
 }
 
-
-.image-header {
-  flex: 1;
-  min-width: 80%;
-  text-align: center;
-}
-
 .image-header {
   flex: 1;
   text-align: center;
